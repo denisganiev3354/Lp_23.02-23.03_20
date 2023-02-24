@@ -9,14 +9,13 @@
 
 
 Console.WriteLine("Введите число А: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int numderA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число В: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA == numberB) ;
 {
     Console.WriteLine("Да");
 }
-    else
 {
     Console.WriteLine("Нет");
 }
