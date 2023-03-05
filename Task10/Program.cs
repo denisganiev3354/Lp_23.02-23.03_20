@@ -21,7 +21,7 @@ else
 }
 int SecondNum (int num)
 {
-    int num1 = number / 10;
+    int num1 = num / 10;
     int num2 = num1 % 10;
     return num2;
 }
