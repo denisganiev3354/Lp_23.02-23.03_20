@@ -6,14 +6,14 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Введите трёхзначное число: ");
+Console.Write("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int secondNum = SecondNum (number);
 
 if (number > 99 && number < 1000)
 {
-    Console.WriteLine(SecondNum(number));
+    Console.WriteLine ($"Вторая цифра: {secondNum}");
 }
 else 
 {
