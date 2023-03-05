@@ -25,3 +25,23 @@ int SecondNum (int num)
     int num2 = num1 % 10;
     return num2;
 }
+
+// "ЭТАЛОННОЕ РЕШЕНИЕ!!!"
+
+// int Prompt(string messege)
+// {
+//     System.Console.Write(messege);
+//     string value = Console.ReadLine();
+//     int result = Convert.ToInt32(value);
+//     return result;
+// }
+
+// int number = Prompt("Введите трёхзначное число > ");
+// if (number < 100 || number >= 1000)
+// {
+//     Console.WriteLine("Вы ввели не трёхзначное число, пожалуйста повторите ввод");
+//     return;
+// }
+// Console.WriteLine($"Введенное число '{number}'");
+// int secondRank = number /10 % 10;
+// Console.WriteLine($"Вторая цифра '{secondRank}'");

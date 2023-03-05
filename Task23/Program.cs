@@ -15,7 +15,7 @@ if (n > 0)
 }
 else
 {
-    Console.WriteLine("Введено недопустимое значение");
+    Console.WriteLine("Введено недопустимое значение. ");
 }
 
 void Cube(int a)
