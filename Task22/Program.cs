@@ -11,17 +11,17 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 if (n > 0)
 {
-    Cube(n);
+    Qater(n);
 }
 else
 {
     Console.WriteLine("Введено недопустимое значение");
 }
 
-void Cube(int a)
+void Qater(int a)
 {
     for (int i = 1; i <= a; i++)
     {
-        Console.WriteLine($"{i,4} --- {i * i * i,4}");
+        Console.WriteLine($"{i,4} --- {i * i,4}");
     }
 }
