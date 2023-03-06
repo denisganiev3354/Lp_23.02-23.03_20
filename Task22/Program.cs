@@ -15,13 +15,13 @@ if (n > 0)
 }
 else
 {
-    Console.WriteLine("Введено недопустимое значение");
+    Console.WriteLine("Введено недопустимое значение. ");
 }
 
 void Qater(int a)
 {
     for (int i = 1; i <= a; i++)
     {
-        Console.WriteLine($"{i,4} --- {i * i,4}");
+        Console.WriteLine($"{i,4} --- {i * i, 4}");
     }
 }
