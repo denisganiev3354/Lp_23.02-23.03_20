@@ -10,7 +10,10 @@ int arraySize = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[arraySize];
 
 FillArray(array);
+Console.Write($"Сумма элементов массива ");
 PrintArray(array);
+int sumElemOdd = SumElemOdd(array);
+Console.Write($" находящихся на нечетных позициях = {sumElemOdd}");
 
 void FillArray(int[] arraySize)
 {
@@ -29,15 +32,18 @@ void PrintArray(int[] arr)
         if (i < arr.Length - 1) Console.Write($"{arr[i]}, ");
         else Console.Write($"{arr[i]}");
     }
-    Console.WriteLine("]");
+    Console.Write("]");
 }
 
-int[] SumElemOdd(int[] arr);
+int SumElemOdd(int[] arr)
 {
-    int sum = array[0];
-    for (int i = 0; i < array.Length; i++)
+    int i = 1;
+    int sum = 0;
+    while (i < array.Length)
     {
-       
+        sum += array[i];
+        i += 2;
     }
     return sum;
 }
+
