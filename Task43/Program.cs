@@ -4,8 +4,6 @@
 
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-
-
 Console.WriteLine("Введите b1: ");
 double b1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите k1: ");
