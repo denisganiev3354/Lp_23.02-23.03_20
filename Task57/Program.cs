@@ -20,7 +20,6 @@ void Dictionary(int[] arr)
 {
     int count = 1;
     int value = arr[0];
-    Array.Sort(array);
     for (int i = 1; i < arr.Length; i++)
     {
         if (value == arr[i]) count++;
