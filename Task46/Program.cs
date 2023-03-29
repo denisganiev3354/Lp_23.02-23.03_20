@@ -40,9 +40,8 @@ void PrintMatrix(int[,] matrix)
    
 }
  
-
- int[,] array2d = CreatMatrixRndInt(3, 4, 1, 100);
- PrintMatrix(array2d);
+int[,] array2d = CreatMatrixRndInt(3, 4, 1, 100);
+PrintMatrix(array2d);
 
 
 
