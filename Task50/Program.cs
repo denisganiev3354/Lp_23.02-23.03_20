@@ -8,6 +8,7 @@
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
+
 Console.Write("Задайте индекс строки: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
