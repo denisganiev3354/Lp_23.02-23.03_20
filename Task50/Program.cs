@@ -19,8 +19,9 @@ Console.WriteLine();
 int[,] array2D = CreatMatrixRndInt(3, 4, 1, 100);
 PrintMatrix(array2D);
 Console.WriteLine();
-
-if (numberA < array2D.GetLength(0) && numberB < array2D.GetLength(1))
+if(numberA < 0) Console.WriteLine("Введено неверное значение.");
+else if(numberB < 0) Console.WriteLine("Введено неверное значение.");
+else if (numberA < array2D.GetLength(0) && numberB < array2D.GetLength(1))
 {
     Console.WriteLine($"{array2D[(numberA ), (numberB )]}");
 }
