@@ -3,6 +3,7 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
+<<<<<<< HEAD
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N: ");
@@ -21,3 +22,11 @@ int SumNumbers(int a, int b)
 
 
   
+=======
+Console.Write("Введите первое число: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int 
+>>>>>>> 2dfdeae395cf9b2ad24d58f7bcd0bb7a6ad6aea2
